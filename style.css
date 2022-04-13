@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #000407;
+    color: #e9df51;
+    border-bottom: 3px solid #ee560f;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.mychart {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.banner {
+    background-color: #cecece;
+}
+ 
+.banner .container {
+    height: 550px;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+#myChart {
+    position: relative; 
+    height:40vh; 
+    width:40vw;
+}
+
+#myChart2 {
+    position: relative; 
+    height:40vh; 
+    width:40vw;
+}
+
+.footer {
+    background-color: #000407;
+    border-top: 2px solid #ee560f;
+    color: white;
+}
+
+.footer .container {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
